@@ -9,7 +9,8 @@ lazy val root = (project in file(".")).
     libraryDependencies += "com.amazonaws" % "aws-lambda-java-core" % "1.2.0",
     libraryDependencies += "com.amazon.alexa" % "ask-sdk-core" % "2.20.2",
     libraryDependencies += "com.amazon.alexa" % "ask-sdk-lambda-support" % "2.20.2",
-    libraryDependencies += "com.amazon.alexa" % "ask-sdk" % "2.20.2"
+    libraryDependencies += "com.amazon.alexa" % "ask-sdk" % "2.20.2",
+    libraryDependencies += "org.dom4j" % "dom4j" % "2.1.1"
   )
 
 assemblyMergeStrategy in assembly := {

@@ -7,6 +7,7 @@ class Respondilaro extends SkillStreamHandler(Respondilaro.skills) {}
 object Respondilaro {
   val skills: Skill = Skills.standard()
     .addRequestHandlers(
-      new Respondilo)
+      new EnirejoRespondilo,
+      new TempoRespondilo)
     .build()
 }
